@@ -18,11 +18,11 @@ $(document).ready(function() {
 
     function open() {
         envelope.addClass("open").removeClass("close");
-        message.css("opacity", "1"); // Hace visible el mensaje
+        message.fadeIn(500);  // Muestra el mensaje con un efecto
     }
 
     function close() {
         envelope.addClass("close").removeClass("open");
-        message.css("opacity", "0"); // Oculta el mensaje
+        message.fadeOut(500); // Oculta el mensaje con un efecto
     }
 });

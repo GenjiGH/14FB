@@ -54,11 +54,14 @@ body {
 }
 
 #message {
-  font-size: 16px;
-  font-weight: bold;
-  color: #6b2c91;
-  display: none;
-  user-select: text;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6b2c91;
+    text-align: center;
+    display: none; /* Se mantiene oculto hasta que se abra el sobre */
+    user-select: text;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .hidden {

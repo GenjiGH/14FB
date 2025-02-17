@@ -63,20 +63,8 @@ body {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
-#message, #message2 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #6b2c91;
-    text-align: center;
-    display: none; /* Se ocultan hasta que se abra el sobre */
-    user-select: text;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    margin-bottom: 10px; /* Espacio entre los mensajes */
-}
 
-.open #message, 
-.open #message2 {
+.open #message {
     display: block;
     opacity: 1;
 }
